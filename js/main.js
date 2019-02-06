@@ -61,7 +61,7 @@
 
     // плавная прокрутка
     $(document).ready(function(){
-        $(".nav").on("click","a", function (event) {
+        $('.nav').on('click','a', function (event) {
             event.preventDefault();
             var id  = $(this).attr('href'),
                 top = $(id).offset().top;
